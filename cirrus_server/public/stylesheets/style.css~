@@ -1,0 +1,98 @@
+html, body
+        {
+            height: 100%;
+            padding: 0px;
+            margin: 0px
+        
+        }
+        
+        table.main
+        {
+            height: 100%;
+            background-color: #789;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            border-collapse: collapse;
+        
+        }
+        
+        table.main td, tr {
+            color: #eee;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        td.header
+        {
+            color: #eee;
+            font-family: helvetica;
+            background-color: #e82c0c;
+            height: 40px;
+            text-align: center;
+        }
+        
+        table.main .content
+        {
+            background-color: #323030;
+            border: 1px black solid;
+            
+            vertical-align: top;
+        }
+        
+        table.main td.toolbar
+        {
+            width: 200px;
+        }
+        
+        div.text
+        {
+            padding: 5px;
+        
+        }
+        
+        table.main .scrollable
+        {
+            position: absolute;
+            
+            top: 0; bottom: 0; left: 0; right: 0; height:100%;
+            overflow-y: scroll;
+        
+        }
+        table.main .bar
+        {
+            background-color: #252222;
+            border: 1px black solid; 
+        }
+        
+        table.main .bottom-border
+        {
+            height: 16px;
+        
+        }
+        
+        td.window-field
+        {
+            vertical-align: top;
+            background-color: #161212;
+            height: 16px;
+            border: 1px black solid;
+            position: relative;
+            overflow-y: auto;
+        }
+        td.window-field .window
+        {
+            position: relative; 
+            float: left;
+        }
+        td.window-field .window-header
+        {
+            width: 100%;
+            height: 32px;
+            margin: -1px;
+        }
+        td.window-field .window-main
+        {
+            width: 360px;
+            height: 240px;
+        }
